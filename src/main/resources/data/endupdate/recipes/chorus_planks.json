@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "endupdate:chorus_stems"
+    }
+  ],
+  "result": {
+    "item": "endupdate:chorus_planks",
+    "count": 4
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "endupdate:block/stripped_chorus_stem",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "endupdate:block/stripped_chorus_stem"
+    },
+    "axis=z": {
+      "model": "endupdate:block/stripped_chorus_stem",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "endupdate:chorus_stem",
+    "endupdate:stripped_chorus_stem",
+    "endupdate:chorus_hyphae",
+    "endupdate:stripped_chorus_hyphae"
+  ]
+}

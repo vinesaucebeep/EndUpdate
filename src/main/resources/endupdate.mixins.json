@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.neocities.beep67site.endupdate.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "endupdate.refmap.json",
+  "mixins": [
+    "common.block.MixinAbstractFireBlock"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

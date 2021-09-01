@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "endupdate:block/ender_lantern"
+    },
+    "hanging=true": {
+      "model": "endupdate:block/ender_lantern_hanging"
+    }
+  }
+}

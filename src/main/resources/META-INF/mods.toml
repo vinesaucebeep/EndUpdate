@@ -1,0 +1,32 @@
+modLoader="javafml" #mandatory
+loaderVersion="[36,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="All rights reserved"
+
+[[mods]] #mandatory
+modId="endupdate" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Not Available" #mandatory
+authors="vinesaucebeep67, spare_uranium" #optional
+description='''
+A mod that spices up the End, just like Mojang did with the Nether!
+
+
+CREDITS:
+
+Writer: vinesaucebeep67
+Illustrator: spare_uranium
+'''
+
+[[dependencies.endupdate]] #optional
+   modId="forge" #mandatory
+   mandatory=true #mandatory
+   versionRange="[36,)" #mandatory
+   ordering="NONE"
+   side="BOTH"
+
+[[dependencies.endupdate]]
+   modId="minecraft"
+   mandatory=true
+   versionRange="[1.16.5,1.17)"
+   ordering="NONE"
+   side="BOTH"
