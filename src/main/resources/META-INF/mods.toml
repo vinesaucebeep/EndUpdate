@@ -6,6 +6,7 @@ license="All rights reserved"
 modId="endupdate" #mandatory
 version="${file.jarVersion}" #mandatory
 displayName="Not Available" #mandatory
+logoFile="endupdate.png"
 authors="vinesaucebeep67, spare_uranium" #optional
 description='''
 A mod that spices up the End, just like Mojang did with the Nether!
