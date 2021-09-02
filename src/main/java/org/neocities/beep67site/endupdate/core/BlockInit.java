@@ -21,7 +21,5 @@ public class BlockInit {
     public static final RegistryObject<Block> CHORUS_DOOR = BLOCKS.register("chorus_door", () -> new ChorusDoorBlock(AbstractBlock.Properties.copy(Blocks.CRIMSON_DOOR)));
     public static final RegistryObject<Block> END_TITANIUM = BLOCKS.register("end_titanium", () -> new Block(AbstractBlock.Properties.copy(Blocks.IRON_BLOCK)));
     public static final RegistryObject<Block> ENDER_FIRE = BLOCKS.register("ender_fire", () -> new EnderFireBlock(AbstractBlock.Properties.copy(Blocks.SOUL_FIRE)));
-    public static final RegistryObject<Block> ENDER_MAGMA = BLOCKS.register("ender_magma", () -> new MagmaBlock(AbstractBlock.Properties.of(Material.STONE, MaterialColor.NETHER).requiresCorrectToolForDrops().sound(SoundType.STONE).lightLevel((p_235447_0_) -> 3).noOcclusion()));
     public static final RegistryObject<Block> ENDER_LANTERN = BLOCKS.register("ender_lantern", () -> new LanternBlock(AbstractBlock.Properties.copy(Blocks.LANTERN)));
-    public static final RegistryObject<Block> SOUL_MAGMA = BLOCKS.register("soul_magma", () -> new MagmaBlock(AbstractBlock.Properties.of(Material.STONE, MaterialColor.NETHER).requiresCorrectToolForDrops().sound(SoundType.STONE).lightLevel((p_235447_0_) -> 3).noOcclusion()));
 }
