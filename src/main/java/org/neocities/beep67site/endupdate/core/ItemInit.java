@@ -17,7 +17,5 @@ public class ItemInit {
     public static final RegistryObject<Item> CHORUS_PLANKS = ITEMS.register("chorus_planks", () -> new BlockItem(BlockInit.CHORUS_PLANKS.get(),new Item.Properties().tab(Endupdate.ENDUPDATE)));
     public static final RegistryObject<Item> CHORUS_DOOR = ITEMS.register("chorus_door", () -> new BlockItem(BlockInit.CHORUS_DOOR.get(),new Item.Properties().tab(Endupdate.ENDUPDATE)));
     public static final RegistryObject<Item> STRIPPED_CHORUS_STEM = ITEMS.register("stripped_chorus_stem", () -> new BlockItem(BlockInit.STRIPPED_CHORUS_STEM.get(),new Item.Properties().tab(Endupdate.ENDUPDATE)));
-    public static final RegistryObject<Item> ENDER_MAGMA = ITEMS.register("ender_magma", () -> new BlockItem(BlockInit.ENDER_MAGMA.get(), new Item.Properties().tab(Endupdate.ENDUPDATE)));
     public static final RegistryObject<Item> ENDER_LANTERN = ITEMS.register("ender_lantern", () -> new BlockItem(BlockInit.ENDER_LANTERN.get(), new Item.Properties().tab(Endupdate.ENDUPDATE)));
-    public static final RegistryObject<Item> SOUL_MAGMA = ITEMS.register("soul_magma", () -> new BlockItem(BlockInit.SOUL_MAGMA.get(), new Item.Properties().tab(Endupdate.ENDUPDATE)));
 }
