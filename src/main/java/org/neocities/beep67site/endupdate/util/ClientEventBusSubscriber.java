@@ -17,6 +17,8 @@ public class ClientEventBusSubscriber {
 
             RenderTypeLookup.setRenderLayer(BlockInit.ENDER_FIRE.get(), RenderType.cutout());
             RenderTypeLookup.setRenderLayer(BlockInit.ENDER_LANTERN.get(), RenderType.cutout());
+            RenderTypeLookup.setRenderLayer(BlockInit.ENDER_CAMPFIRE.get(), RenderType.cutout());
+
         }
 
 }
