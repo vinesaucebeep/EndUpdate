@@ -23,4 +23,5 @@ public class BlockInit {
     public static final RegistryObject<Block> ENDER_FIRE = BLOCKS.register("ender_fire", () -> new EnderFireBlock(AbstractBlock.Properties.copy(Blocks.SOUL_FIRE)));
     public static final RegistryObject<Block> ENDER_LANTERN = BLOCKS.register("ender_lantern", () -> new LanternBlock(AbstractBlock.Properties.copy(Blocks.LANTERN)));
     public static final RegistryObject<Block> ENDER_CAMPFIRE = BLOCKS.register("ender_campfire", () -> new EnderCampfireBlock(AbstractBlock.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<Block> CHORUS_NYLIUM = BLOCKS.register("chorus_nylium", () -> new NyliumBlock(AbstractBlock.Properties.copy(Blocks.WARPED_NYLIUM)));
 }
