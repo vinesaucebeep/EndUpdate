@@ -9,6 +9,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import org.neocities.beep67site.endupdate.Endupdate;
 import org.neocities.beep67site.endupdate.common.properties.blocks.ChorusDoorBlock;
+import org.neocities.beep67site.endupdate.common.properties.blocks.EnderCampfireBlock;
 import org.neocities.beep67site.endupdate.common.properties.blocks.EnderFireBlock;
 
 public class BlockInit {
